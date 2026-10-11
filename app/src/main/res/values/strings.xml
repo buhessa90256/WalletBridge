@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WalletBridge</string>
+    <string name="title">WalletBridge</string>
+    <string name="intro">Open Google Wallet from the diagnosed ColorOS double-power shortcut.</string>
+    <string name="open_wallet">Test bridge</string>
+    <string name="wallet_ready">Google Wallet is installed and can be opened.</string>
+    <string name="wallet_missing">Google Wallet is missing or disabled. Install or enable Google Wallet, then try again.</string>
+    <string name="wallet_failed">Android could not open Google Wallet. Check that it is enabled and try again.</string>
+    <string name="opening">Opening Google Wallet…</string>
+    <string name="unlock">Unlock your phone to open Google Wallet.</string>
+    <string name="unlock_failed">Unlock was cancelled or unavailable. Unlock your phone and retry.</string>
+    <string name="retry">Try again</string>
+    <string name="close">Close</string>
+    <string name="setup">Setup</string>
+    <string name="setup_text">Select Wallet for the double-press power shortcut in ColorOS settings. This bridge receives the FinShell OPEN intent; it does not monitor power presses itself.\n\nNo accessibility service, background service, network access or secure-settings permission is needed. Your normal device unlock is required.\n\nA factory FinShell package with a different signing certificate can prevent installation, even if disabled or removed for your user. See the repository installation guide. This build has not yet been validated on your phone.</string>
+    <string name="diagnostics">Diagnostics</string>
+    <string name="diagnostic_text">Package: com.finshell.wallet\nAction: finshell.wallet.intent.action.OPEN\nTarget: com.google.android.apps.walletnfcrel\nVersion: 0.2.0</string>
+    <string name="no_invocation">No bridge request recorded yet.</string>
+    <string name="last_invocation">Last bridge request: %1$s\nResult: %2$s</string>
+    <string name="received">Received</string>
+    <string name="launched">Wallet launch requested</string>
+</resources>
+
